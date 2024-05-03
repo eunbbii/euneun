@@ -1,0 +1,4 @@
+#와인데이터 가져오기
+from sklearn.datasets import load_wine
+wine=load_wine() #와인 데이터세트 로드
+print(wine.DESCR) #와인데이터출력
