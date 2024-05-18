@@ -1,0 +1,6 @@
+a,b = map(int,input().split())
+print(a+b)
+print(a-b)
+print(a*b)
+print(int(a/b)) # 소수점 없기
+print(a%b)
